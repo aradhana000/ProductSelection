@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.product-category {
+    color: #aaa;
+}
+
+.add-product {
+    display: flex;
+    margin-top: 20px;
+}
+
+.add-product label {
+    margin-right: 10px;
+}
+
+.add-product input,
+.add-product select {
+    padding: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="add-product">
+    <label for="price">Selling Price:</label>
+    <input type="text" id="price" placeholder="Enter Price">
+    <label for="product-name">Product Name:</label>
+    <input type="text" id="product-name" placeholder="Enter Product Name">
+    <label for="category">Choose a Category:</label>
+    <select id="category">
+      <option value="">Select Category</option>
+      <option value="electronics">Electronics</option>
+      <option value="food">Food</option>
+      <option value="skincare">Skincare</option>
+    </select>
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+  <h1>Products</h1>
+  <div class="product-list" id="electronics-list">
+    <h2>Electronic Items</h2>
+  </div>
+  <div class="product-list" id="food-list">
+    <h2>Food Items</h2>
+  </div>
+  <div class="product-list" id="skincare-list">
+    <h2>Skincare Items</h2>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
